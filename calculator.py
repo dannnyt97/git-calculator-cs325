@@ -14,7 +14,7 @@ def divide(a, b):
         return a / b
 
 def calculate():
-    print(">>> Super Calculator: Version B <<<")
+    print("The Super Duper Calculator!")
     print("Addition: 5 + 3 =", add(5, 3))
     print("Subtraction: 5 - 3 =", subtract(5, 3))
     print("Multiplication: 5 * 3 =", multiply(5, 3))
