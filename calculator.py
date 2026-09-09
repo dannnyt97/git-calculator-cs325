@@ -8,7 +8,10 @@ def multiply(a, b):
     return a * b
 
 def divide(a, b):
-    return a / b
+    if b == 0:
+        return "Error: Division by zero"
+    else:
+        return a / b
 
 def calculate():
     print("Welcome to the Pair Calculator!")
